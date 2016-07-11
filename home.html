@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio Idea 1</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="nav-container">
+        <div class="navbar-header">
+            <div class="user-name">
+                <h4>NAME or LOGO</h4>
+            </div>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" aria-expanded="true">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                        
+            </button>
+        </div>
+        <nav class="navbar navbar-transparent navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse in" id="myNavbar" aria-expanded="true">
+                    <ul class="nav navbar-nav">
+                          <li><a href="#section1"><i class="fa fa-home fa-fw fa-2x"></i></a></li>
+                          <li><a href="#section2"><i class="fa fa-user fa-fw fa-2x"></i></a></li>
+                          <li><a href="#section3"><i class="fa fa-book fa-fw fa-2x"></i></a></li>
+                          <li><a href="#section41"><i class="fa fa-phone fa-fw fa-2x"></i></a></li>
+                      </ul>
+                </div>
+            </div>
+        </nav> 
+    </div>
+       
+    <section id="section1" class="services bg-primary header-home">
+        <div class="container" id="homechange">
+            <div class="row text-center">
+                <div class="col-md-3 col-sm-6 hero-feature">
+                </div>
+                <div class="col-lg-12">
+
+                  <div class="folio-banner-welcome">
+                    <h2>hi I'm Queenie O. Lodonia — designer & coder</h2>
+                    <p>I love creating useful and beautiful things for peoplesee my latest work</p>
+                    <hr class="small">
+                  </div> 
+                </div>
+            </div>
+
+            <div class="banner-arrow-down">
+                <a href="#section2" class="btn btn-portfolio1"><i class="fa fa-chevron-down fa-fw fa-4x"></i></a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- about me -->
+    <section id="section2">
+        <div  class="container">
+            <div class="row">
+
+                <!-- <h2 class="text-center"> About me</h2> -->
+                <div class="col-sm-5 col-xs-12">
+                     <img src="img/gwapa.jpg" class="img-responsive"> 
+                </div>
+
+                <!-- <div class="col-sm-7">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div> -->
+
+
+                <div class="col-sm-7 tab-container">
+                    <label class="tab-title" for="tab-11">
+                        <h2> About </h2></label>
+                    <label class="tab-title" for="tab-22">
+                        <h2> Skills </h2></label>
+                    <!-- <label class="tab-title" for="tab-33">Tab #3</label> -->
+                    <input type="radio" name="tab" class="hide" id="tab-11" checked>
+                    <ul class="tab-content_about">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </ul>
+                    <input type="radio" name="tab" class="hide" id="tab-22">
+                    <ul class="tab-content_about">
+                        <div class="col-lg12">
+                            <!-- <h2 class="text-center"> My Skills </h2> -->
+                            <ul class="tabs text-center">
+                                <li class="tab-link current" data-tab="tab-1"> Front-end </li>
+                                <li class="tab-link" data-tab="tab-2"> Back-end </li>
+                                <li class="tab-link" data-tab="tab-3"> RAD </li>
+                                <li class="tab-link" data-tab="tab-4"> Others </li>
+                            </ul>
+
+                            <div id="tab-1" class="tab-content current">
+                                <div class="col-sm-12">
+                                    <h2>html</h2>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar"
+                                        aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+                                          95% Complete (success)
+                                        </div>
+                                    </div>
+
+                                    <h2>css</h2>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar"
+                                        aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                                          50% Complete (info)
+                                        </div>
+                                    </div>
+
+                                    <h2>sass</h2>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar"
+                                        aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                                          60% Complete (warning)
+                                        </div>
+                                    </div>
+
+                                    <h2>js</h2>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar"
+                                        aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                          70% Complete (danger)
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="tab-2" class="tab-content">
+                                <div class="col-sm-12">
+                                    <h2>php</h2>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar"
+                                        aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+                                          95% Complete (success)
+                                        </div>
+                                    </div>
+
+                                    <h2>java</h2>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar"
+                                        aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                                          50% Complete (info)
+                                        </div>
+                                    </div>
+
+                                    <h2>c</h2>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar"
+                                        aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                                          60% Complete (warning)
+                                        </div>
+                                    </div>
+
+                                    <h2>c++</h2>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar"
+                                        aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                          70% Complete (danger)
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="tab-3" class="tab-content">
+                                <div class="col-sm-12">
+                                    <h2>Code Igniter</h2>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar"
+                                        aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+                                          95% Complete (success)
+                                        </div>
+                                    </div>
+
+                                    <h2>WordPress</h2>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar"
+                                        aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                                          50% Complete (info)
+                                        </div>
+                                    </div>
+
+                                    <h2>Bootstrap</h2>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar"
+                                        aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                                          60% Complete (warning)
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="tab-4" class="tab-content">
+                                <div class="col-sm-12">
+                                    <h2>MySQL</h2>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar"
+                                        aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                          70% Complete (danger)
+                                        </div>
+                                    </div>
+
+                                    <h2>Mobile apps(android)</h2>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar"
+                                        aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+                                          95% Complete (success)
+                                        </div>
+                                    </div>
+
+                                    <h2>adobe Photoshop</h2>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar"
+                                        aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                                          50% Complete (info)
+                                        </div>
+                                    </div>
+
+                                    <h2>adobe illustrator</h2>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar"
+                                        aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                                          60% Complete (warning)
+                                        </div>
+                                    </div>
+
+                                    <h2>XARA Web Design</h2>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar"
+                                        aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                          70% Complete (danger)
+                                        </div>
+                                    </div>
+
+                                    <h2>XAMPP</h2>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar"
+                                        aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                          70% Complete (danger)
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                    <!-- <input type="radio" name="tab" class="hide" id="tab-33">
+                    <ul class="tab-content_about">
+                        <li><a href="#">efg</a></li>
+                        <li><a href="#">efg</a></li>
+                        <li><a href="#">efg</a></li>
+                    </ul> -->
+                </div>
+
+
+                <div class="col-lg-12">
+                    <!-- <h2 class="text-center"> My Skills </h2>
+                    <ul class="tabs text-center">
+                        <li class="tab-link current" data-tab="tab-1"> Front-end </li>
+                        <li class="tab-link" data-tab="tab-2"> Back-end </li>
+                        <li class="tab-link" data-tab="tab-3"> RAD </li>
+                        <li class="tab-link" data-tab="tab-4"> Others </li>
+                    </ul> -->
+
+                    <!-- frontend -->
+                    <!-- <div id="tab-1" class="tab-content current">
+                        <div class="col-sm-12">
+                            <h2>html</h2>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar"
+                                aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+                                  95% Complete (success)
+                                </div>
+                            </div>
+
+                            <h2>css</h2>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar"
+                                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                                  50% Complete (info)
+                                </div>
+                            </div>
+
+                            <h2>sass</h2>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar"
+                                aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                                  60% Complete (warning)
+                                </div>
+                            </div>
+
+                            <h2>js</h2>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar"
+                                aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                  70% Complete (danger)
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <!-- backend -->
+                    <!-- <div id="tab-2" class="tab-content">
+                        <div class="col-sm-12">
+                            <h2>php</h2>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar"
+                                aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+                                  95% Complete (success)
+                                </div>
+                            </div>
+
+                            <h2>java</h2>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar"
+                                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                                  50% Complete (info)
+                                </div>
+                            </div>
+
+                            <h2>c</h2>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar"
+                                aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                                  60% Complete (warning)
+                                </div>
+                            </div>
+
+                            <h2>c++</h2>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar"
+                                aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                  70% Complete (danger)
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <!-- rad -->
+                    <!-- <div id="tab-3" class="tab-content">
+                        <div class="col-sm-12">
+                            <h2>Code Igniter</h2>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar"
+                                aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+                                  95% Complete (success)
+                                </div>
+                            </div>
+
+                            <h2>WordPress</h2>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar"
+                                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                                  50% Complete (info)
+                                </div>
+                            </div>
+
+                            <h2>Bootstrap</h2>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar"
+                                aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                                  60% Complete (warning)
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <!-- others -->
+                    <!-- <div id="tab-4" class="tab-content">
+                        <div class="col-sm-12">
+                            <h2>MySQL</h2>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar"
+                                aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                  70% Complete (danger)
+                                </div>
+                            </div>
+
+                            <h2>Mobile apps(android)</h2>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar"
+                                aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+                                  95% Complete (success)
+                                </div>
+                            </div>
+
+                            <h2>adobe Photoshop</h2>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar"
+                                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                                  50% Complete (info)
+                                </div>
+                            </div>
+
+                            <h2>adobe illustrator</h2>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar"
+                                aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                                  60% Complete (warning)
+                                </div>
+                            </div>
+
+                            <h2>XARA Web Design</h2>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar"
+                                aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                  70% Complete (danger)
+                                </div>
+                            </div>
+
+                            <h2>XAMPP</h2>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar"
+                                aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                  70% Complete (danger)
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <section id="section3">
+        <div class="container">
+            <div class="row">
+                <div class="pull-right">
+                    <a href="#section3" id="close-galle"> <i class="fa fa-times"></i> </a>
+                </div>
+                <h1 class="text-center"> Things that i have done</h1>
+                <div class="wrapper">
+                    <div class="photos text-center">
+                        <div class="col-sm-3 col-xs-6">
+                            <img src="http://placehold.it/800x500" />
+                            <div>Title</div>
+                        </div>
+                        <div class="col-sm-3 col-xs-6">
+                            <img src="http://placehold.it/800x500" />
+                            <div>Title</div>
+                        </div>
+                        <div class="col-sm-3 col-xs-6">
+                            <img src="http://placehold.it/800x500" />
+                            <div>Title</div>
+                        </div>
+                        <div class="col-sm-3 col-xs-6">
+                            <img src="http://placehold.it/800x500" />
+                            <div>Title</div>
+                        </div>
+                        <div class="col-sm-3 col-xs-6">
+                            <img src="http://placehold.it/800x500" />
+                            <div>Title</div>
+                        </div>
+                        <div class="col-sm-3 col-xs-6">
+                            <img src="http://placehold.it/800x500" />
+                            <div>Title</div>
+                        </div>
+                        <div class="col-sm-3 col-xs-6">
+                            <img src="http://placehold.it/800x500" />
+                            <div>Title</div>
+                        </div>
+                        <div class="col-sm-3 col-xs-6">
+                            <img src="http://placehold.it/800x500" />
+                            <div>Title</div>
+                        </div>
+                    </div>
+                </div>    
+                
+                <!-- <div class="col-md-3 col-sm-6 hero-feature">
+                    <div class="thumbnail">
+                        <img src="http://placehold.it/800x500" alt="">
+                        <div class="caption">
+                            <h3>Feature Label</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <p>
+                                <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
+                            </p>
+                        </div>
+                    </div>
+                </div> -->
+            <div class="banner-arrow-down">
+                <a href="#section1" id="more-galle" class="btn btn-portfolio1"><i class="fa fa-chevron-down fa-fw fa-4x"></i></a>
+            </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="section41">
+        <div class="container">
+            <div class="row">
+                <h1 class="text-center">Contact me</h1>
+                <div class="col-sm-4 social-me">
+                    <div class="col-sm-6 col-xs-12">
+                        <a href="#"> <i class="fa fa-instagram"></i> </a>
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+                        <a href="#"> <i class="fa fa-google-plus-square"></i> </a>
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+                        <a href="#"> <i class="fa fa-linkedin-square"></i> </a>
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+                        <a href="#"> <i class="fa fa-instagram"></i> </a>
+                    </div>
+                </div>
+                <div class="col-sm-8 contact-me">
+                    <form>
+                        <div class="col-sm-6">
+                            <input type="text" placeholder="Name" class="form-control"/>
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="email" placeholder="Email" class="form-control"/>
+                        </div>
+                        <div class="col-sm-12">
+                            <textarea placeholder="Message" class="form-control" rows="6"></textarea>
+
+                            <input type="submit" value="Send" class="btn btn-primary btn-lg btn-block"/>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <p>&copy;</p>
+            </div>
+        </div>
+        
+    </footer>
+<!-- <div id="section42" class="container-fluid"> -->
+  <!-- <h1>Section 4 Submenu 2</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p> -->
+<!-- </div> -->
+
+<script>
+$(document).ready(function(){
+    $('body').scrollspy({target: ".navbar", offset: 50});   
+});
+</script>
+<script>
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+
+    $(document).ready(function(){
+  
+        $('ul.tabs li').click(function(){
+          var tab_id = $(this).attr('data-tab');
+
+          $('ul.tabs li').removeClass('current ');
+          $('.tab-content').removeClass('current');
+
+          $(this).addClass('current');
+          $("#"+tab_id).addClass('current');
+        })
+
+      });
+
+   /* $(document).ready(function(){
+  
+        $('ul.main-tabs li').click(function(){
+          var tab_id = $(this).attr('data-tab');
+
+          $('ul.main-tabs li').removeClass('current');
+          $('.main-tab-content').removeClass('current');
+
+          $(this).addClass('current');
+          $("#"+tab_id).addClass('current');
+        })
+
+      });*/
+
+    </script>
+
+    <script>
+        $(document).ready(function(){
+            $('#more-galle').click(function(){
+                $('#section3').addClass("more-gallery");
+                if ( $('#section3').hasClass("more-gallery") ) {
+                    $('.navbar-fixed-top').css("display","none");
+                };
+            });
+            $('#close-galle').click(function(){
+                $('#section3').removeClass("more-gallery");
+            });
+
+            
+        });
+    </script>
+</body>
+</html>
